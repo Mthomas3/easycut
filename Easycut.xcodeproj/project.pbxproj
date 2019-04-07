@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E636D2B225952B800E552DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E636D2A225952B800E552DC /* AppDelegate.swift */; };
+		1E636D33225952B800E552DC /* Easycut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E636D31225952B800E552DC /* Easycut.xcdatamodeld */; };
+		1E636D35225952B900E552DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E636D34225952B900E552DC /* Assets.xcassets */; };
+		1E636D38225952B900E552DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E636D36225952B900E552DC /* LaunchScreen.storyboard */; };
+		1E636D43225952B900E552DC /* EasycutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E636D42225952B900E552DC /* EasycutTests.swift */; };
+		1E636D4E225952B900E552DC /* EasycutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E636D4D225952B900E552DC /* EasycutUITests.swift */; };
+		1E636D5C225958F800E552DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E636D5B225958F700E552DC /* GoogleService-Info.plist */; };
+		1E636D5D225958F800E552DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E636D5B225958F700E552DC /* GoogleService-Info.plist */; };
+		1E636D5E225958F800E552DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E636D5B225958F700E552DC /* GoogleService-Info.plist */; };
+		1E636D6C2259863800E552DC /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E636D6B2259863800E552DC /* ConnectionController.swift */; };
+		1E636D6E2259864D00E552DC /* Connection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E636D6D2259864D00E552DC /* Connection.storyboard */; };
+		2949199E2DEC360EC4826BC6 /* Pods_Easycut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025DAE707375C01AA3D279EC /* Pods_Easycut.framework */; };
+		7805B54F77D9247809CB037A /* Pods_EasycutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65282B14FFB56D124C7BF50 /* Pods_EasycutTests.framework */; };
+		7A7DEEDE5DCE305980660980 /* Pods_EasycutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66723A24FCC45D54272ACCF5 /* Pods_EasycutUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E636D3F225952B900E552DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E636D1F225952B800E552DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E636D26225952B800E552DC;
+			remoteInfo = Easycut;
+		};
+		1E636D4A225952B900E552DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E636D1F225952B800E552DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E636D26225952B800E552DC;
+			remoteInfo = Easycut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025DAE707375C01AA3D279EC /* Pods_Easycut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easycut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E7BC48A9C3B59A8F2D7F42 /* Pods-EasycutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasycutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasycutUITests/Pods-EasycutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		178956041A6EE725F5C2CAD7 /* Pods-EasycutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasycutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasycutTests/Pods-EasycutTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E636D27225952B800E552DC /* Easycut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easycut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E636D2A225952B800E552DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E636D32225952B800E552DC /* Easycut.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easycut.xcdatamodel; sourceTree = "<group>"; };
+		1E636D34225952B900E552DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E636D37225952B900E552DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E636D39225952B900E552DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E636D3E225952B900E552DC /* EasycutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasycutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E636D42225952B900E552DC /* EasycutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasycutTests.swift; sourceTree = "<group>"; };
+		1E636D44225952B900E552DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E636D49225952B900E552DC /* EasycutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasycutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E636D4D225952B900E552DC /* EasycutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasycutUITests.swift; sourceTree = "<group>"; };
+		1E636D4F225952B900E552DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E636D5B225958F700E552DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E636D6B2259863800E552DC /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
+		1E636D6D2259864D00E552DC /* Connection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Connection.storyboard; sourceTree = "<group>"; };
+		1FE609945A358677EE5F80F2 /* Pods-EasycutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasycutUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasycutUITests/Pods-EasycutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		513D345B022FE4E7923FE126 /* Pods-Easycut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easycut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easycut/Pods-Easycut.debug.xcconfig"; sourceTree = "<group>"; };
+		66723A24FCC45D54272ACCF5 /* Pods_EasycutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasycutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F42AE7AF8A934A287628D0 /* Pods-EasycutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasycutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasycutTests/Pods-EasycutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C5E8E5830CFB78EEEB54C0 /* Pods-Easycut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easycut.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easycut/Pods-Easycut.release.xcconfig"; sourceTree = "<group>"; };
+		F65282B14FFB56D124C7BF50 /* Pods_EasycutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasycutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E636D24225952B800E552DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2949199E2DEC360EC4826BC6 /* Pods_Easycut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E636D3B225952B900E552DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7805B54F77D9247809CB037A /* Pods_EasycutTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E636D46225952B900E552DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7DEEDE5DCE305980660980 /* Pods_EasycutUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15316E38E08F29ADC1D71E77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				513D345B022FE4E7923FE126 /* Pods-Easycut.debug.xcconfig */,
+				C5C5E8E5830CFB78EEEB54C0 /* Pods-Easycut.release.xcconfig */,
+				73F42AE7AF8A934A287628D0 /* Pods-EasycutTests.debug.xcconfig */,
+				178956041A6EE725F5C2CAD7 /* Pods-EasycutTests.release.xcconfig */,
+				13E7BC48A9C3B59A8F2D7F42 /* Pods-EasycutUITests.debug.xcconfig */,
+				1FE609945A358677EE5F80F2 /* Pods-EasycutUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E636D1E225952B800E552DC = {
+			isa = PBXGroup;
+			children = (
+				1E636D6F2259876400E552DC /* Easycut */,
+				1E636D692259858500E552DC /* Delegate */,
+				1E636D61225984B600E552DC /* Controller */,
+				1E636D60225984AF00E552DC /* View */,
+				1E636D5F225984A800E552DC /* Model */,
+				1E636D29225952B800E552DC /* Easycut */,
+				1E636D41225952B900E552DC /* EasycutTests */,
+				1E636D4C225952B900E552DC /* EasycutUITests */,
+				1E636D28225952B800E552DC /* Products */,
+				15316E38E08F29ADC1D71E77 /* Pods */,
+				EBE7AE834505EF2F6E9CE02B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E636D28225952B800E552DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D27225952B800E552DC /* Easycut.app */,
+				1E636D3E225952B900E552DC /* EasycutTests.xctest */,
+				1E636D49225952B900E552DC /* EasycutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E636D29225952B800E552DC /* Easycut */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D34225952B900E552DC /* Assets.xcassets */,
+				1E636D5B225958F700E552DC /* GoogleService-Info.plist */,
+				1E636D36225952B900E552DC /* LaunchScreen.storyboard */,
+				1E636D39225952B900E552DC /* Info.plist */,
+				1E636D31225952B800E552DC /* Easycut.xcdatamodeld */,
+			);
+			path = Easycut;
+			sourceTree = "<group>";
+		};
+		1E636D41225952B900E552DC /* EasycutTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D42225952B900E552DC /* EasycutTests.swift */,
+				1E636D44225952B900E552DC /* Info.plist */,
+			);
+			path = EasycutTests;
+			sourceTree = "<group>";
+		};
+		1E636D4C225952B900E552DC /* EasycutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D4D225952B900E552DC /* EasycutUITests.swift */,
+				1E636D4F225952B900E552DC /* Info.plist */,
+			);
+			path = EasycutUITests;
+			sourceTree = "<group>";
+		};
+		1E636D5F225984A800E552DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D682259857E00E552DC /* User */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E636D60225984AF00E552DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D672259857800E552DC /* Connection */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E636D61225984B600E552DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D642259855A00E552DC /* Connection */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E636D642259855A00E552DC /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D6B2259863800E552DC /* ConnectionController.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		1E636D672259857800E552DC /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D6D2259864D00E552DC /* Connection.storyboard */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		1E636D682259857E00E552DC /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		1E636D692259858500E552DC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1E636D2A225952B800E552DC /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1E636D6F2259876400E552DC /* Easycut */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Easycut;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EBE7AE834505EF2F6E9CE02B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				025DAE707375C01AA3D279EC /* Pods_Easycut.framework */,
+				F65282B14FFB56D124C7BF50 /* Pods_EasycutTests.framework */,
+				66723A24FCC45D54272ACCF5 /* Pods_EasycutUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E636D26225952B800E552DC /* Easycut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E636D52225952B900E552DC /* Build configuration list for PBXNativeTarget "Easycut" */;
+			buildPhases = (
+				7B9F6EB742F7F9B801776003 /* [CP] Check Pods Manifest.lock */,
+				1E636D23225952B800E552DC /* Sources */,
+				1E636D24225952B800E552DC /* Frameworks */,
+				1E636D25225952B800E552DC /* Resources */,
+				BCC391CF84126D9C40C63008 /* [CP] Embed Pods Frameworks */,
+				2407CFA0770115AD33357FD2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Easycut;
+			productName = Easycut;
+			productReference = 1E636D27225952B800E552DC /* Easycut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E636D3D225952B900E552DC /* EasycutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E636D55225952B900E552DC /* Build configuration list for PBXNativeTarget "EasycutTests" */;
+			buildPhases = (
+				87347DD605A588CDCE6FA012 /* [CP] Check Pods Manifest.lock */,
+				1E636D3A225952B900E552DC /* Sources */,
+				1E636D3B225952B900E552DC /* Frameworks */,
+				1E636D3C225952B900E552DC /* Resources */,
+				D0E99621B8542433326E91F9 /* [CP] Embed Pods Frameworks */,
+				181FA281A7F7C1057C34E42D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E636D40225952B900E552DC /* PBXTargetDependency */,
+			);
+			name = EasycutTests;
+			productName = EasycutTests;
+			productReference = 1E636D3E225952B900E552DC /* EasycutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E636D48225952B900E552DC /* EasycutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E636D58225952B900E552DC /* Build configuration list for PBXNativeTarget "EasycutUITests" */;
+			buildPhases = (
+				A1D9E9F50674932B48D2E607 /* [CP] Check Pods Manifest.lock */,
+				1E636D45225952B900E552DC /* Sources */,
+				1E636D46225952B900E552DC /* Frameworks */,
+				1E636D47225952B900E552DC /* Resources */,
+				B9C3F07840AE0A2C18F67ED7 /* [CP] Embed Pods Frameworks */,
+				A783FBFDF6DF26B7D653E316 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E636D4B225952B900E552DC /* PBXTargetDependency */,
+			);
+			name = EasycutUITests;
+			productName = EasycutUITests;
+			productReference = 1E636D49225952B900E552DC /* EasycutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E636D1F225952B800E552DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thomas Martins";
+				TargetAttributes = {
+					1E636D26225952B800E552DC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1E636D3D225952B900E552DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E636D26225952B800E552DC;
+					};
+					1E636D48225952B900E552DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E636D26225952B800E552DC;
+					};
+				};
+			};
+			buildConfigurationList = 1E636D22225952B800E552DC /* Build configuration list for PBXProject "Easycut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E636D1E225952B800E552DC;
+			productRefGroup = 1E636D28225952B800E552DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E636D26225952B800E552DC /* Easycut */,
+				1E636D3D225952B900E552DC /* EasycutTests */,
+				1E636D48225952B900E552DC /* EasycutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E636D25225952B800E552DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E636D6E2259864D00E552DC /* Connection.storyboard in Resources */,
+				1E636D38225952B900E552DC /* LaunchScreen.storyboard in Resources */,
+				1E636D5C225958F800E552DC /* GoogleService-Info.plist in Resources */,
+				1E636D35225952B900E552DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E636D3C225952B900E552DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E636D5D225958F800E552DC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E636D47225952B900E552DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E636D5E225958F800E552DC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181FA281A7F7C1057C34E42D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasycutTests/Pods-EasycutTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2407CFA0770115AD33357FD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easycut/Pods-Easycut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9F6EB742F7F9B801776003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easycut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87347DD605A588CDCE6FA012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasycutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D9E9F50674932B48D2E607 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasycutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A783FBFDF6DF26B7D653E316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasycutUITests/Pods-EasycutUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C3F07840AE0A2C18F67ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasycutUITests/Pods-EasycutUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC391CF84126D9C40C63008 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Easycut/Pods-Easycut-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easycut/Pods-Easycut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E99621B8542433326E91F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasycutTests/Pods-EasycutTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E636D23225952B800E552DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E636D33225952B800E552DC /* Easycut.xcdatamodeld in Sources */,
+				1E636D6C2259863800E552DC /* ConnectionController.swift in Sources */,
+				1E636D2B225952B800E552DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E636D3A225952B900E552DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E636D43225952B900E552DC /* EasycutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E636D45225952B900E552DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E636D4E225952B900E552DC /* EasycutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E636D40225952B900E552DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E636D26225952B800E552DC /* Easycut */;
+			targetProxy = 1E636D3F225952B900E552DC /* PBXContainerItemProxy */;
+		};
+		1E636D4B225952B900E552DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E636D26225952B800E552DC /* Easycut */;
+			targetProxy = 1E636D4A225952B900E552DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E636D36225952B900E552DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E636D37225952B900E552DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E636D50225952B900E552DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E636D51225952B900E552DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E636D53225952B900E552DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513D345B022FE4E7923FE126 /* Pods-Easycut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F4ML7J3E2;
+				INFOPLIST_FILE = Easycut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EasyCut.Easycut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E636D54225952B900E552DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C5E8E5830CFB78EEEB54C0 /* Pods-Easycut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F4ML7J3E2;
+				INFOPLIST_FILE = Easycut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EasyCut.Easycut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E636D56225952B900E552DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F42AE7AF8A934A287628D0 /* Pods-EasycutTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F4ML7J3E2;
+				INFOPLIST_FILE = EasycutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EasyCut.EasycutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easycut.app/Easycut";
+			};
+			name = Debug;
+		};
+		1E636D57225952B900E552DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178956041A6EE725F5C2CAD7 /* Pods-EasycutTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F4ML7J3E2;
+				INFOPLIST_FILE = EasycutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EasyCut.EasycutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easycut.app/Easycut";
+			};
+			name = Release;
+		};
+		1E636D59225952B900E552DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E7BC48A9C3B59A8F2D7F42 /* Pods-EasycutUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F4ML7J3E2;
+				INFOPLIST_FILE = EasycutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EasyCut.EasycutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Easycut;
+			};
+			name = Debug;
+		};
+		1E636D5A225952B900E552DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE609945A358677EE5F80F2 /* Pods-EasycutUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F4ML7J3E2;
+				INFOPLIST_FILE = EasycutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EasyCut.EasycutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Easycut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E636D22225952B800E552DC /* Build configuration list for PBXProject "Easycut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E636D50225952B900E552DC /* Debug */,
+				1E636D51225952B900E552DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E636D52225952B900E552DC /* Build configuration list for PBXNativeTarget "Easycut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E636D53225952B900E552DC /* Debug */,
+				1E636D54225952B900E552DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E636D55225952B900E552DC /* Build configuration list for PBXNativeTarget "EasycutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E636D56225952B900E552DC /* Debug */,
+				1E636D57225952B900E552DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E636D58225952B900E552DC /* Build configuration list for PBXNativeTarget "EasycutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E636D59225952B900E552DC /* Debug */,
+				1E636D5A225952B900E552DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E636D31225952B800E552DC /* Easycut.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E636D32225952B800E552DC /* Easycut.xcdatamodel */,
+			);
+			currentVersion = 1E636D32225952B800E552DC /* Easycut.xcdatamodel */;
+			path = Easycut.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E636D1F225952B800E552DC /* Project object */;
+}
